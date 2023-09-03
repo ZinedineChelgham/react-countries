@@ -50,7 +50,7 @@ const Countries = () => {
                     ))
                 }
             </ul>
-            <ul>
+            <ul className={"countries-container"}>
                 {
                     datas
                         .filter((country) => selectedContinents.includes(country.continents[0]))
